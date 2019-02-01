@@ -8,7 +8,7 @@
 5. Memory Allocation Techniques
 6. Page Replacement Algorithm
 
-#Part B
+# Part B
 7. Token Recognition
 8. Identifier Recognition
 9. First of a CFG
