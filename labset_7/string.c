@@ -51,12 +51,12 @@ void main()
 	if(state == 6)
 		printf("\n Invalid String \n");
 	
-	if(state == 0 || state == 1 || state == 5)
+	else if(state == 0 || state == 1 || state == 5)
 		printf("\nString accepted under a* \n");
 		
 	else if(state == 2 || state == 4)
 		printf("\nString accepted under a*b+ \n");
 		
-	else if(state == 3)
+	else 
 		printf("\nString accepted under abb \n");
 }
