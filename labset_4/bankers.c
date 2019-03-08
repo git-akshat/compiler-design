@@ -1,3 +1,20 @@
+/*************Banker's safety Algorithm***********/
+/*
+1. Let Work and Finish be vectors of length m and n, respectively. Initialize
+Work=Available and Finish[i]=false for i=0, 1, ..., n − 1.
+
+2. Find an index i such that both
+a. Finish[i] == false
+b. Needi ≤ Work
+If no such i exists, go to step 4.
+
+3. Work=Work+Allocationi
+Finish[i]=true
+Go to step 2.
+
+4. If Finish[i]==true for all i, then the system is in a safe state.
+*/
+
 #include <stdbool.h>
 #include <stdlib.h>
 #include <stdio.h>
